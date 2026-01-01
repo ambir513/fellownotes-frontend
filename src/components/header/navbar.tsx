@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { LoginAlertDialog } from "../login/login-alert-dialog";
+import { LoginDialog } from "../login/login-dialog";
 
 const NAV_LINK = [
   { name: "About", href: "/" },
@@ -27,11 +27,7 @@ export function Navbar() {
             ))}
           </ul>
         </nav>
-        <LoginAlertDialog>
-          <p className="rounded-lg bg-primary px-4 py-1.5 text-sm font-medium text-primary-foreground hover:bg-primary/80">
-            Get Started
-          </p>
-        </LoginAlertDialog>
+        <LoginDialog />
       </div>
     </header>
   );

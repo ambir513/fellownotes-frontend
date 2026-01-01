@@ -1,0 +1,46 @@
+{
+  "heroSection": {
+    "Announcement": "New Feature: AI-Powered Study Assistant Now Available!",
+    "title": "The All-in-One Study Platform for Students.",
+    "subtitle": "Notes, PYQs, AI tools, and a student community - designed for productivity.",
+    "description": "Made for students who struggle to find the right study materials at the right time, especially the night before exams.",
+    "ctaText": "Start Studying",
+    "ctaLink": "/notes",
+    "image": [
+      {
+        "src": "/assets/book-pen.svg",
+        "alt": "Book and Pen Illustration"
+      },
+      {
+        "src": "/assets/studying.svg",
+        "alt": "Studying Illustration"
+      }
+    ]
+  },
+
+  "benefitsSection": {
+    "title": "Why Choose Fellow Notes?",
+    "subtitle": "Smart Tools & Student Community",
+    "description": "Upload PDFs, get instant AI help, chat with students, share resources, and learn together in one platform.",
+    "cards": [
+      {
+        "icon": "📚",
+        "title": "Everything in One Place",
+        "description": "Notes, PYQs, summaries, and tools - organized and exam-ready.",
+        "id": 1
+      },
+      {
+        "icon": "🤖",
+        "title": "Save Time, Study Smarter",
+        "description": "Focused content made for night-before-exam preparation.",
+        "id": 2
+      },
+      {
+        "icon": "🌐",
+        "title": "Learn Together",
+        "description": "AI tools + a student community to share, discuss, and grow.",
+        "id": 3
+      }
+    ]
+  }
+}

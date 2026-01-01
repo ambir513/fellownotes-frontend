@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${dm_mono.variable} antialiased`}>
+      <body className={`${inter.className} ${dm_mono.variable} antialiased`}>
         <Provider>{children}</Provider>
       </body>
     </html>
