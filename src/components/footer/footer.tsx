@@ -45,7 +45,7 @@ export function Footer() {
 
             <div className="flex gap-3 items-center">
               <Image
-                src="/amarbiradar.jpeg"
+                src="/brand/amarbiradar.jpeg"
                 alt="Fellow Notes Logo"
                 width={32}
                 height={32}
@@ -83,7 +83,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t pt-5 text-sm text-muted-foreground sm:flex-row sm:justify-between">
-          <p>{`© ${CURRENT_YEAR} AI. All rights reserved.`}</p>
+          <p>{`© ${CURRENT_YEAR} Fellow Notes. All rights reserved.`}</p>
           <p>Built with ❤️ by AmBir</p>
         </div>
       </div>

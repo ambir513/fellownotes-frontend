@@ -4,12 +4,12 @@ import landingData from "@/data/landing.json";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { Badge } from "../ui/badge";
 
-const DATA = landingData.heroSection;
+const DATA = landingData.heroSection[0];
 
 export function HeroSection() {
   return (
     <section className="font-sans">
-      <div className="flex relative justify-center items-center flex-col gap-12 pb-18 pt-18">
+      <div className="flex relative justify-center items-center flex-col gap-12 sm:py-28 py-24">
         <Image
           src={DATA.image[0].src}
           alt={DATA.image[0].alt}
@@ -27,16 +27,16 @@ export function HeroSection() {
           className="dark:invert absolute right-0 sm:bottom-0 bottom-0 w-20 h-auto sm:w-40 lg:w-48"
         />
         <Badge
-          className="text-xs sm:text-sm font-medium p-3.5 tracking-wide"
+          className="text-xs sm:text-sm sm:w-fit w-xs font-medium p-3.5 tracking-wide"
           variant={"outline"}
         >
           {DATA.Announcement}
         </Badge>
         <div className="space-y-4 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight sm:w-2xl ">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight md:w-2xl ">
             {DATA.title}
           </h1>
-          <p className="text-base sm:text-lg w-2xl text-muted-foreground">
+          <p className="text-base md:text-lg md:w-2xl text-muted-foreground">
             {DATA.description}
           </p>
         </div>
