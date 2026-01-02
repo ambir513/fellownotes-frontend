@@ -21,7 +21,9 @@ export function LoginDialog() {
       <DialogPopup className="sm:max-w-sm">
         <Form className="contents">
           <DialogHeader>
-            <DialogTitle>Welcome to Fellow Notes</DialogTitle>
+            <DialogTitle className="font-semibold">
+              Welcome to Fellow Notes
+            </DialogTitle>
             <DialogDescription>
               Please sign in to get started.
             </DialogDescription>

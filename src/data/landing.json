@@ -1,46 +1,141 @@
 {
-  "heroSection": {
-    "Announcement": "New Feature: AI-Powered Study Assistant Now Available!",
-    "title": "The All-in-One Study Platform for Students.",
-    "subtitle": "Notes, PYQs, AI tools, and a student community - designed for productivity.",
-    "description": "Made for students who struggle to find the right study materials at the right time, especially the night before exams.",
-    "ctaText": "Start Studying",
-    "ctaLink": "/notes",
-    "image": [
-      {
-        "src": "/assets/book-pen.svg",
-        "alt": "Book and Pen Illustration"
-      },
-      {
-        "src": "/assets/studying.svg",
-        "alt": "Studying Illustration"
-      }
-    ]
-  },
-
-  "benefitsSection": {
-    "title": "Why Choose Fellow Notes?",
-    "subtitle": "Smart Tools & Student Community",
-    "description": "Upload PDFs, get instant AI help, chat with students, share resources, and learn together in one platform.",
-    "cards": [
-      {
-        "icon": "📚",
-        "title": "Everything in One Place",
-        "description": "Notes, PYQs, summaries, and tools - organized and exam-ready.",
-        "id": 1
-      },
-      {
-        "icon": "🤖",
-        "title": "Save Time, Study Smarter",
-        "description": "Focused content made for night-before-exam preparation.",
-        "id": 2
-      },
-      {
-        "icon": "🌐",
-        "title": "Learn Together",
-        "description": "AI tools + a student community to share, discuss, and grow.",
-        "id": 3
-      }
-    ]
-  }
+  "heroSection": [
+    {
+      "Announcement": "New Feature: AI Study Assistant Launched!",
+      "title": "The All-in-One Study Platform for Students.",
+      "subtitle": "Notes, PYQs, AI tools, and a student community - designed for productivity.",
+      "description": "Made for students who struggle to find the right study materials at the right time, especially the night before exams.",
+      "ctaText": "Start Studying",
+      "ctaLink": "/notes",
+      "image": [
+        {
+          "src": "/assets/book-pen.svg",
+          "alt": "Book and Pen Illustration"
+        },
+        {
+          "src": "/assets/studying.svg",
+          "alt": "Studying Illustration"
+        }
+      ]
+    }
+  ],
+  "FeaturesSection": [
+    {
+      "title": "Why Choose Fellow Notes?",
+      "subtitle": "Smart Tools & Student Community",
+      "description": "Upload PDFs, get instant AI help, chat with students, share resources, and learn together in one platform.",
+      "cards": [
+        {
+          "icon": "squares",
+          "title": "Everything in One Place",
+          "description": "Notes, PYQs, summaries, and tools - organized and exam-ready.",
+          "id": 1
+        },
+        {
+          "icon": "🤖",
+          "title": "Save Time, Study Smarter",
+          "description": "Focused content made for night-before-exam preparation.",
+          "id": 2
+        },
+        {
+          "icon": "🌐",
+          "title": "Learn Together",
+          "description": "AI tools + a student community to share, discuss, and grow.",
+          "id": 3
+        }
+      ]
+    }
+  ],
+  "pricingSection": [
+    {
+      "title": "Affordable Plans for Every Student",
+      "subtitle": "Free & Premium Options",
+      "description": "Get started for free or unlock advanced AI tools and exclusive content with Premium.",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Perfect for getting started with basic features.",
+          "badge": "null",
+          "price": "₹0",
+          "activeCard": true,
+          "features": [
+            "Access to basic notes and PYQs",
+            "Community forums",
+            "Limited AI tool usage"
+          ],
+          "buttonVariant": "outline",
+          "ctaText": "Get Started",
+          "ctaLink": "/signup",
+          "id": 1
+        },
+        {
+          "name": "Pro",
+          "description": "Ideal for dedicated students seeking advanced features.",
+          "badge": "Most Popular",
+          "price": "₹9.99",
+          "buttonVariant": "default",
+          "activeCard": false,
+          "features": [
+            "Unlimited access to all notes and PYQs",
+            "Advanced AI study assistant",
+            "Exclusive study materials",
+            "Priority support"
+          ],
+          "ctaText": "Upgrade Now",
+          "ctaLink": "/pricing",
+          "id": 2
+        },
+        {
+          "name": "Premium",
+          "description": "For students who want the ultimate study experience.",
+          "badge": "null",
+          "price": "₹19.99",
+          "activeCard": false,
+          "buttonVariant": "outline",
+          "features": [
+            "All Pro features",
+            "1-on-1 AI tutoring sessions",
+            "Early access to new features",
+            "Personalized study plans"
+          ],
+          "ctaText": "Go Premium",
+          "ctaLink": "/pricing",
+          "id": 3
+        }
+      ]
+    }
+  ],
+  "faqsSection": [
+    {
+      "title": "Frequently Asked Questions",
+      "description": "Answers to common questions about Fellow Notes — features, plans, and more. Still need help? Reach out to our support team.",
+      "faqs": [
+        {
+          "question": "What is Fellow Notes?",
+          "answer": "Fellow Notes is an all-in-one study platform designed to help students access notes, previous year questions, AI tools, and a supportive student community.",
+          "id": 1
+        },
+        {
+          "question": "How does the AI study assistant work?",
+          "answer": "Our AI study assistant helps you summarize notes, generate practice questions, and provide explanations to enhance your learning experience.",
+          "id": 2
+        },
+        {
+          "question": "What are the differences between Free and Premium plans?",
+          "answer": "The Free plan offers basic access to notes and community features, while Premium plans unlock advanced AI tools, exclusive content, and personalized support.",
+          "id": 3
+        },
+        {
+          "question": "Can I share my notes with other students?",
+          "answer": "Yes! Fellow Notes encourages collaboration. You can share your notes and resources within our student community.",
+          "id": 4
+        },
+        {
+          "question": "Is there a mobile app available?",
+          "answer": "Currently, Fellow Notes is accessible via web browsers. We are working on developing a mobile app for a better on-the-go experience.",
+          "id": 5
+        }
+      ]
+    }
+  ]
 }
