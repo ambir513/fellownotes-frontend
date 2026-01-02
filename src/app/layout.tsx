@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, DM_Mono } from "next/font/google";
 import "./globals.css";
-import Provider from "@/components/provider";
+import { TanstackQueryProvider } from "@/providers/tanstack-query-provider";
+import { ThemeProvider } from "@/providers/theme-provider";
+import ToasterProvider from "@/providers/toast-provider";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const dm_mono = DM_Mono({
@@ -21,9 +23,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} ${dm_mono.variable} antialiased`}>
-        <Provider>{children}</Provider>
+        <TanstackQueryProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <ToasterProvider>{children}</ToasterProvider>
+          </ThemeProvider>
+        </TanstackQueryProvider>
       </body>
     </html>
   );
