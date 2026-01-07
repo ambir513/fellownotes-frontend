@@ -67,7 +67,7 @@ export function LoginDialog() {
         } else {
           setOpen(false);
           toastManager.add({
-            title: "Success",
+            title: "Check your email",
             description: "Login link sent to your email.",
             type: "success",
           });
